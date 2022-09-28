@@ -14,8 +14,9 @@ function gen() {
 }
 
 function color() {
-    document.body.style.backgroundColor = gen()
-    textColor.textContent = gen()
+    let color = gen();
+    document.body.style.backgroundColor = color;
+    textColor.textContent = color;
     
 }
 
